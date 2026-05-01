@@ -1,8 +1,12 @@
+/* ===== GLOBAL STYLES ===== */
+/* Reset default browser margins, padding, and box-sizing */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Body and main layout styles */
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(255, 255, 255);
@@ -12,6 +16,8 @@ body {
     overflow-x: hidden;
 }
 
+/* ===== HEADER & NAVIGATION STYLES ===== */
+/* Header with background image */
 header {
     background-image: url(backg.jpg );
     background-size: cover;
@@ -19,41 +25,55 @@ header {
     padding: 20px 0;
     text-align: center;
 }
+
+/* Navigation bar with blur effect and semi-transparent background */
 .navbar {
     backdrop-filter: blur(20px);
     background-color: rgba(36, 36, 36, 0.5);
     color: white;
 }
+/* Full-width container */
 .container-fluid{
     width: 95%;
 }
+
+/* Logo styling with brand name */
 .logo{
     color: rgb(253, 253, 253);
     font-weight: bold;
     margin: 0 30% 0 0;
 }
+/* Accent color for part of logo */
 .logo span{
     color: rgb(158, 75, 2);
 }
+
+/* Mobile menu toggle button */
 .navbar-toggler{
     color: white;
     background-color: white;
 }
 
+/* Navigation link styling */
 .nav-link{
     color: rgb(169, 169, 169);
     font-size: 15;
 }
+
+/* Navigation link hover effect with color and size transition */
 .nav-link:hover{
     color: white;
     transition: 1.5s;
     font-size: 17px;
 }
 
+/* Active navigation link styling */
 #active {
     color: white;
     font-weight: 18;
 }
+
+/* Hero section container with semi-transparent background */
 .header-container{
     margin-top: 150px;
     margin-bottom: 5%;
@@ -73,71 +93,99 @@ header {
     margin-bottom: 8%;
     color: rgb(214, 212, 212);
 }
+/* Main headline styling */
 .header-text h2 {
     font-size: 35px;
 }
+
+/* Advantages section heading styling */
+/* Advantages section heading styling */
 .advantagess h4{
     font-size: 25px;
     color: rgb(158, 75, 2);
 }
+
+/* ===== COLLECTION & CARDS SECTION ===== */
+/* Collection container */
 .collection{
     margin-top: 5%;
 }
+/* Section title styling */
 .title-text{
     margin: auto;
     text-align: center;
     margin-bottom: 3%;
     font-weight: bold;
 }
+
+/* Card container */
 .card-content{
     margin-top: 3%;
     margin-bottom: 5%;
 }
+/* Card hover effect with background color change */
 .card:hover{
     background-color: #333;
     transition: 0.5s;
     color: white;
 }
+
+/* ===== BUTTON & DROPDOWN STYLES ===== */
+/* Button styling with custom color */
 .btn{
     background-color: rgb(158, 75, 2);
     border: 1px solid rgb(158, 75, 2);
     color: white;
 }
+/* Button hover effect */
 .btn:hover{
     background-color: rgb(255, 255, 255);
     color: black;
     transition: 0.5s;
 }
+
+/* Dropdown menu with blur effect and custom styling */
 .dropdown-menu {
     backdrop-filter: blur(2px); 
     background-color: rgba(26, 25, 25, 0.2);
     border: 1px solid rgb(158, 75, 2);
 }
+/* Dropdown menu items */
 .dropdown-item{
     color: white;
 }
+
+/* Dropdown item hover effect */
 .dropdown-item:hover{
     background-color: rgb(158, 75, 2);
     color: white;
     transition: 0.9s;
 }
+/* Dropdown divider line styling */
 .dropdown-divider{
     background-color: rgb(158, 75, 2);
     color: rgb(158, 75, 2);
 }
+
+/* ===== CONTENT SECTIONS ===== */
+/* Order now section with background image */
 .ordernow{
     background-image: url(backg.jpg);
     background-size: cover;
     background-position: center;
     color: white;
 }
+/* Items section with blur effect */
 .itemes{
     background-color: rgba(51, 51, 51, 0.653);
     backdrop-filter: blur(8px);
 }
+
+/* Items content styling */
 .itemes-containt{
     text-align: center;
 }
+/* Image container with rounded corners */
 .richardim{
     border-radius: 10px;
     width: 100%;
@@ -147,25 +195,34 @@ header {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+/* ===== FOOTER STYLES ===== */
+/* Footer with background image */
 footer{
     background-image: url(backg.jpg);
     background-size: cover;
     background-position: center;
     color: white;
 }
+/* Footer content container */
 .footer-containt{
     margin: auto;
     padding-bottom: 0;
     padding-top: 4%;
 }
+
+/* Email link styling */
 .email-link{
     color: white;
 
 }
+/* Email link hover effect with color change */
 .email-link:hover{
     color: rgb(158, 75, 2);
     transition: 0.8s;
 }
+
+/* Footer navigation list */
 .footer-list{
     display: flex;
     justify-content: space-evenly;
@@ -175,6 +232,7 @@ footer{
     text-decoration: none;
     color: rgb(180, 180, 180);
 }
+/* Footer link hover effect with background color */
 .p-1 a:hover{
     color: white;
     background-color: rgb(158, 75, 2);
@@ -182,6 +240,8 @@ footer{
     border-radius: 5px;
     transition: 0.8s;
 }
+
+/* Footer section title with underline */
 .tite-p{
     border-bottom: 2px solid rgb(158, 75, 2);
     text-align: center;
